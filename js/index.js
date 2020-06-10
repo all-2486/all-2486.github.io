@@ -1,5 +1,5 @@
 $(function () {
-
+    // https://all-2486.github.io/  已上传个人网站
     $(".prediction-box li").on("click", function () {
         // 去掉初始下划线
         $(".prediction-box li").removeClass("active");
@@ -72,11 +72,11 @@ $(function () {
                 let nowdata = res.HeWeather6[0].now;
                 console.log(res.HeWeather6[0].status)
                 if (res.HeWeather6[0].status === "unknown location") {
-                    alert("不是地名!!!");
+                    // alert("不是地名!!!");
                     return;
                 }
                 if (res.HeWeather6[0].status === "invalid param") {
-                    alert("没有输入地名!!!");
+                    // alert("没有输入地名!!!");
                     return;
                 }
                 
