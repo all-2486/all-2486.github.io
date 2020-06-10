@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>康康天气</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/reset.min.css" />
+  <link rel="stylesheet" href="./css/index.min.css" />
+  <link rel="stylesheet" href="./font/iconfont.css">
+</head>
+
+<body>
+
+  <div class="weather-box">
+
+    <!-- 系统导航 -->
+    <div class="system"></div>
+    <!-- 系统导航end -->
+
+    <!-- 搜索 -->
+    <div class="search clearfix">
+      <div class="fl location">
+        <div class="fl location-text"></div>
+        <div class="fl location-icon"></div>
+      </div>
+      <div class="fl search-box">
+        <input class="search-ipt fl" type="text" />
+        <span class="search-icon fl"></span>
+      </div>
+    </div>
+    <!-- 搜索end -->
+
+    <!-- 气温 -->
+    <div class="temperature">
+      <!-- 摄氏度 -->
+      <div class="temperature_box">
+        <div class="degree"><span class=" w" id="tmp"></span><span>°</span></div>
+        <div class="outdoor">
+          <div class="degree_climate fl w" id="cond_txt"></div>
+          <div class="degree_section fl" id="tmp_max"></div>
+        </div>
+      </div>
+      <!-- 气候详情 -->
+      <div class="details">
+        <ul>
+          <li>
+            <div class="data w" id="wind_sc"></div>
+            <div class="direction w" id="wind_dir"></div>
+            <span></span>
+          </li>
+          <li>
+            <div class="data w" id="vis"></div>
+            <div class="direction">可见度</div>
+            <span></span>
+          </li>
+          <li>
+            <div class="data w" id="hum"></div>
+            <div class="direction">湿度</div>
+          </li>
+        </ul>
+        <div class="future" id="future"></div>
+      </div>
+      <!-- 未来天气 -->
+    </div>
+    <!-- 气温end -->
+    <!-- 预报 -->
+    <div class="prediction">
+      <ul class="prediction-box">
+        <li class="active">逐日预报</li>
+        <li>逐时预报</li>
+      </ul>
+
+      <ol class="prediction-content">
+        <li>
+          <div class="time" id="0">06-09</div>
+          <div class="mate">阴</div>
+          <img class="img_data2 iconfont" src="./images/icons/100.png"/>
+          <div class="prediction_section">28°~36°</div>
+        </li>
+        <li>
+          <div class="time" id="1">06-10</div>
+          <div class="mate">阴</div>
+          <img class="img_data2 iconfont" src="./images/icons/100.png"/>
+          <div class="prediction_section">28°~35°</div>
+        </li>
+        <li>
+          <div class="time" id="2">06-11</div>
+          <div class="mate">阴</div>
+          <img class="img_data2 iconfont" src="./images/icons/100.png"/>
+          <div class="prediction_section">28°~36°</div>
+        </li>
+        <li>
+          <div class="time" id="3">06-12</div>
+          <div class="mate">多云</div>
+          <img class="img_data2 iconfont" src="./images/icons/100.png"/>
+          <div class="prediction_section">27°~34°</div>
+        </li>
+        <li>
+          <div class="time" id="4">06-13</div>
+          <div class="mate">阵雨</div>
+          <img class="img_data2 iconfont" src="./images/icons/100.png"/>
+          <div class="prediction_section">27°~34°</div>
+        </li>
+      </ol>
+      <ol class="prediction-content1">
+        <li>
+          <div class="time1">06-09</div>
+          <div class="mate1">阴</div>
+          <img class="img_data iconfont"  src="./images/icons/100.png"/>
+          <div class="prediction_section1">28°~36°</div>
+        </li>
+        <li>
+          <div class="time1">06-10</div>
+          <div class="mate1">阴</div>
+          <img class="img_data iconfont"  src="./images/icons/100.png"/>
+          <div class="prediction_section1">28°~35°</div>
+        </li>
+        <li>
+          <div class="time1">06-11</div>
+          <div class="mate1">阴</div>
+          <img class="img_data iconfont"  src="./images/icons/100.png"/>
+          <div class="prediction_section1">28°~36°</div>
+        </li>
+        <li>
+          <div class="time1">06-12</div>
+          <div class="mate1">多云</div>
+          <img class="img_data iconfont"  src="./images/icons/100.png"/>
+          <div class="prediction_section1">27°~34°</div>
+        </li>
+        <li>
+          <div class="time1">06-13</div>
+          <div class="mate1">阵雨</div>
+          <img class="img_data iconfont"  src="./images/icons/100.png"/>
+          <div class="prediction_section1">27°~34°</div>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <!-- 预报end -->
+  </div>
+
+  <script src="./js/rem.js"></script>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

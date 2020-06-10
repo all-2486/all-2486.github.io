@@ -1,0 +1,30 @@
+{
+  "id": "1871646",
+  "name": "天气",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "31146",
+      "name": "阴天-天气",
+      "font_class": "yintian",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "9097114",
+      "name": "天气",
+      "font_class": "ziyuan",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "9097126",
+      "name": "天气",
+      "font_class": "ziyuan1",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    }
+  ]
+}
